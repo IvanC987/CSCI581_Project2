@@ -26,7 +26,7 @@ Here's the result:
 Above is the input image captured at an angle. Below is the rectified result after applying the computed homography:
 
 <p align="center">
-  <img src="images/Part1Final.png" alt="Rectified Img" width="200" hspace="60"/>
+  <img src="images/Part1Final.png" alt="Rectified Img" width="400" hspace="60"/>
 </p>
 
 This shows how homography estimation can recover a front-view perspective of a planar surface. 
@@ -88,7 +88,7 @@ This process created a (somewhat?) realistic top-down representation where all f
 The following visualizes the final trapezoid arrangement used to define where each camera view is projected in the composite image:
 
 <p align="center">
-  <img src="images/CarSidePlot.png" alt="Car's Trapezoidal Plot" width="200" hspace="60"/>
+  <img src="images/CarSidePlot.png" alt="Car's Trapezoidal Plot" width="400" hspace="60"/>
 </p>
 
 Each trapezoid corresponds to one direction (front, right, back, left), forming a surrounding view around the central region that represents the car.
@@ -101,7 +101,7 @@ The final top-down composite view merges the four warped images into a single0 s
 The blue boundary lines indicate transitions between each warped region, and the black rectangle marks the car’s position.
 
 <p align="center">
-  <img src="images/car_final_plot.png" alt="Final Img" width="200" hspace="60"/>
+  <img src="images/car_final_plot.png" alt="Final Img" width="400" hspace="60"/>
 </p>
 
 As one can see, the final result sort-of works, but doens't look that good. 
